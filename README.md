@@ -2,7 +2,7 @@
 
 - Nombre del estudiante: Johnny Ceron
 - NRC: 37712
-- Carrera: [Completar]
+- Carrera: Ingeniería en TICS
 
 Marca cada ejercicio después de revisar el enunciado y comprobar el resultado.
 
