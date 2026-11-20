@@ -8,6 +8,20 @@
 
 public class Ej04_ContarVocales {
     public static void main(String[] args) {
-        // Escribe aquí tu prueba desde main.
+        String frase = "Ingenieria en TICS";
+        int vocales = contarVocales(frase);
+        System.out.println("Frase: " + frase);
+        System.out.println("Cantidad de vocales: " + vocales);
+    }
+
+    static int contarVocales(String texto) {
+        int contador = 0;
+        for (int i = 0; i < texto.length(); i++) {
+            char c = Character.toLowerCase(texto.charAt(i));
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                contador++;
+            }
+        }
+        return contador;
     }
 }

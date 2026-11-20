@@ -8,6 +8,23 @@
 
 public class Ej03_ValidarContrasena {
     public static void main(String[] args) {
-        // Escribe aquí tu prueba desde main.
+        String contrasena = "Clave2026";
+        System.out.println("Contrasena: " + contrasena);
+        System.out.println("Es valida: " + esValida(contrasena));
+    }
+
+    static boolean esValida(String texto) {
+        boolean mayuscula = false;
+        boolean digito = false;
+        for (int i = 0; i < texto.length(); i++) {
+            char caracter = texto.charAt(i);
+            if (Character.isUpperCase(caracter)) {
+                mayuscula = true;
+            }
+            if (Character.isDigit(caracter)) {
+                digito = true;
+            }
+        }
+        return texto.length() >= 8 && mayuscula && digito;
     }
 }
