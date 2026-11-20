@@ -1,6 +1,6 @@
 # FP-Unidad2-Ejercicios-CeronJohnny
 
-- Nombre del estudiante: [Completar]
+- Nombre del estudiante: Johnny Ceron
 - NRC: 37712
 - Carrera: [Completar]
 

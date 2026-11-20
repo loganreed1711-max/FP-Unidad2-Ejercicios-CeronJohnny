@@ -2,8 +2,8 @@
  * Sesión: S10 - Argumentos y parámetros
  * Ejercicio 05: Predicción de salida
  * Enunciado: Predecir y verificar la salida de un programa con tres llamadas.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej05_PrediccionSalida {

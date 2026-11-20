@@ -2,8 +2,8 @@
  * Sesión: S10 - Argumentos y parámetros
  * Ejercicio 02: Intercambiar elementos de un arreglo
  * Enunciado: Intercambiar dos elementos de un arreglo en los índices indicados.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej02_IntercambiarArreglo {

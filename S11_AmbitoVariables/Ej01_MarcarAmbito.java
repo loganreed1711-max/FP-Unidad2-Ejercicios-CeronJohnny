@@ -2,8 +2,8 @@
  * Sesión: S11 - Ámbito de las variables
  * Ejercicio 01: Marcar ámbitos
  * Enunciado: Anotar el ámbito de cada variable en el programa base.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej01_MarcarAmbito {

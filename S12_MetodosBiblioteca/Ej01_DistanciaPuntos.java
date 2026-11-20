@@ -2,8 +2,8 @@
  * Sesión: S12 - Métodos de biblioteca
  * Ejercicio 01: Distancia entre dos puntos
  * Enunciado: Calcular la distancia con Math.sqrt y Math.pow.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej01_DistanciaPuntos {

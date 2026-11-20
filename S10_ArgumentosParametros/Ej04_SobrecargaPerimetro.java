@@ -2,8 +2,8 @@
  * Sesión: S10 - Argumentos y parámetros
  * Ejercicio 04: Sobrecarga de perímetro
  * Enunciado: Llamar desde main a las dos versiones del método perimetro.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej04_SobrecargaPerimetro {

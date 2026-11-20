@@ -2,8 +2,8 @@
  * Sesión: S12 - Métodos de biblioteca
  * Ejercicio 02: Dados que suman 7
  * Enunciado: Simular 1000 lanzamientos y mostrar cuántas veces los dados suman 7 y su porcentaje.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej02_DadosSuma7 {

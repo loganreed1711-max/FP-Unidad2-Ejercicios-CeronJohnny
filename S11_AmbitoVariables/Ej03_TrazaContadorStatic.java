@@ -2,8 +2,8 @@
  * Sesión: S11 - Ámbito de las variables
  * Ejercicio 03: Traza del contador static
  * Enunciado: Registrar las variables vivas y su valor en cada línea relevante.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej03_TrazaContadorStatic {

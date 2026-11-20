@@ -2,8 +2,8 @@
  * Sesión: S12 - Métodos de biblioteca
  * Ejercicio 03: Validar una contraseña
  * Enunciado: Comprobar longitud mínima de 8, una mayúscula y un dígito mediante Character.
- * Autor: [Apellido Nombre]
- * Fecha: [dd/mm/aaaa]
+ * Autor: Johnny Ceron
+ * Fecha: 20/11/2026
  */
 
 public class Ej03_ValidarContrasena {
