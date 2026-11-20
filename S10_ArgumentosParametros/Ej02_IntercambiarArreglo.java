@@ -6,8 +6,20 @@
  * Fecha: 20/11/2026
  */
 
+import java.util.Arrays;
+
 public class Ej02_IntercambiarArreglo {
     public static void main(String[] args) {
-        // Escribe aquí tu prueba desde main.
+        int[] valores = {4, 8, 15, 16};
+        System.out.println("Antes: " + Arrays.toString(valores));
+        intercambiar(valores, 1, 3);
+        System.out.println("Despues: " + Arrays.toString(valores));
+        // Ahora si funciona porque se copia la referencia al mismo arreglo.
+    }
+
+    static void intercambiar(int[] v, int i, int j) {
+        int temporal = v[i];
+        v[i] = v[j];
+        v[j] = temporal;
     }
 }

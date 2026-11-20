@@ -8,6 +8,18 @@
 
 public class Ej01_IntercambiarPrimitivos {
     public static void main(String[] args) {
-        // Escribe aquí tu prueba desde main.
+        int a = 10;
+        int b = 20;
+        System.out.println("Antes: a = " + a + ", b = " + b);
+        intercambiar(a, b);
+        System.out.println("Despues: a = " + a + ", b = " + b);
+        // No funciona para cambiar a y b en main: Java copia los valores primitivos.
+    }
+
+    static void intercambiar(int a, int b) {
+        int temporal = a;
+        a = b;
+        b = temporal;
+        System.out.println("Dentro del metodo: a = " + a + ", b = " + b);
     }
 }
