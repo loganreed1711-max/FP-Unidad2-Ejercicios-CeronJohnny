@@ -8,7 +8,7 @@
 
 import java.util.Random;
 
-public class Ej02_DadosSuma7 {
+public class E2_DadosSuma7 {
     public static void main(String[] args) {
         Random azar = new Random();
         int exitos = 0;

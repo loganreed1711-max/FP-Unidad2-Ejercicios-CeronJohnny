@@ -6,7 +6,7 @@
  * Fecha: 20/11/2026
  */
 
-public class Ej01_DistanciaPuntos {
+public class E1_DistanciaPuntos {
     public static void main(String[] args) {
         double x1 = 1;
         double y1 = 2;

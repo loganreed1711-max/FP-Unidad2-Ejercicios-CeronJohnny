@@ -6,17 +6,17 @@
  * Fecha: 20/11/2026
  */
 
-public class Ej04_SobrecargaPerimetro {
-    public static void main(String[] args) {
-        System.out.println("Perimetro del cuadrado: " + perimetro(5));
-        System.out.println("Perimetro del rectangulo: " + perimetro(4, 7));
-    }
-
+public class E4_SobrecargaPerimetro {
     static double perimetro(double lado) {
         return 4 * lado;
     }
 
     static double perimetro(double base, double altura) {
         return 2 * (base + altura);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Perimetro del cuadrado: " + perimetro(5));
+        System.out.println("Perimetro del rectangulo: " + perimetro(4, 7));
     }
 }

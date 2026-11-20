@@ -6,7 +6,18 @@
  * Fecha: 20/11/2026
  */
 
-public class Ej05_PrediccionSalida {
+public class E5_PrediccionSalida {
+    static void aumentar(int n) {
+        n += 5;
+        System.out.println("Dentro: " + n);
+    }
+
+    static int aumentarYDevolver(int n) {
+        n += 2;
+        System.out.println("Dentro: " + n);
+        return n;
+    }
+
     public static void main(String[] args) {
         // Salida predicha:
         // Dentro: 8
@@ -20,16 +31,5 @@ public class Ej05_PrediccionSalida {
         numero = aumentarYDevolver(numero); // segunda llamada
         aumentar(numero);                 // tercera llamada
         System.out.println("En main: " + numero);
-    }
-
-    static void aumentar(int n) {
-        n += 5;
-        System.out.println("Dentro: " + n);
-    }
-
-    static int aumentarYDevolver(int n) {
-        n += 2;
-        System.out.println("Dentro: " + n);
-        return n;
     }
 }

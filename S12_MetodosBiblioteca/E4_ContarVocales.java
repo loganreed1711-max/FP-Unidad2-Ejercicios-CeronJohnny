@@ -6,14 +6,7 @@
  * Fecha: 20/11/2026
  */
 
-public class Ej04_ContarVocales {
-    public static void main(String[] args) {
-        String frase = "Ingenieria en TICS";
-        int vocales = contarVocales(frase);
-        System.out.println("Frase: " + frase);
-        System.out.println("Cantidad de vocales: " + vocales);
-    }
-
+public class E4_ContarVocales {
     static int contarVocales(String texto) {
         int contador = 0;
         for (int i = 0; i < texto.length(); i++) {
@@ -23,5 +16,12 @@ public class Ej04_ContarVocales {
             }
         }
         return contador;
+    }
+
+    public static void main(String[] args) {
+        String frase = "Ingenieria en TICS";
+        int vocales = contarVocales(frase);
+        System.out.println("Frase: " + frase);
+        System.out.println("Cantidad de vocales: " + vocales);
     }
 }

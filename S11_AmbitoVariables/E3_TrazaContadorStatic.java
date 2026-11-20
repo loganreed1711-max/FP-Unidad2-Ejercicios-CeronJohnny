@@ -6,8 +6,13 @@
  * Fecha: 20/11/2026
  */
 
-public class Ej03_TrazaContadorStatic {
+public class E3_TrazaContadorStatic {
     static int contador = 0;
+    static void contar(int valor) {
+        contador++;
+        System.out.println("Llamada " + valor + ", contador = " + contador);
+    }
+
     public static void main(String[] args) {
         // Traza:
         // linea                 | variables vivas            | contador
@@ -19,10 +24,5 @@ public class Ej03_TrazaContadorStatic {
             contar(i);
         }
         System.out.println("Contador final: " + contador);
-    }
-
-    static void contar(int valor) {
-        contador++;
-        System.out.println("Llamada " + valor + ", contador = " + contador);
     }
 }

@@ -6,7 +6,12 @@
  * Fecha: 20/11/2026
  */
 
-public class Ej02_LineasNoCompilan {
+public class E2_LineasNoCompilan {
+    static void mostrarTotal(int valor) {
+        int resultado = valor * 2;
+        System.out.println("Doble: " + resultado);
+    }
+
     public static void main(String[] args) {
         int total = 0;
         for (int i = 1; i <= 3; i++) {
@@ -18,10 +23,5 @@ public class Ej02_LineasNoCompilan {
         mostrarTotal(total);
         // System.out.println(resultado);
         // Error: cannot find symbol. Causa: resultado es local de mostrarTotal.
-    }
-
-    static void mostrarTotal(int valor) {
-        int resultado = valor * 2;
-        System.out.println("Doble: " + resultado);
     }
 }

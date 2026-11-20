@@ -8,7 +8,7 @@
 
 import java.util.Random;
 
-public class Ej05_GenerarCodigo {
+public class E5_GenerarCodigo {
     public static void main(String[] args) {
         Random azar = new Random();
         String codigo = "";

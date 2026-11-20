@@ -6,13 +6,7 @@
  * Fecha: 20/11/2026
  */
 
-public class Ej03_ValidarContrasena {
-    public static void main(String[] args) {
-        String contrasena = "Clave2026";
-        System.out.println("Contrasena: " + contrasena);
-        System.out.println("Es valida: " + esValida(contrasena));
-    }
-
+public class E3_ValidarContrasena {
     static boolean esValida(String texto) {
         boolean mayuscula = false;
         boolean digito = false;
@@ -26,5 +20,11 @@ public class Ej03_ValidarContrasena {
             }
         }
         return texto.length() >= 8 && mayuscula && digito;
+    }
+
+    public static void main(String[] args) {
+        String contrasena = "Clave2026";
+        System.out.println("Contrasena: " + contrasena);
+        System.out.println("Es valida: " + esValida(contrasena));
     }
 }
