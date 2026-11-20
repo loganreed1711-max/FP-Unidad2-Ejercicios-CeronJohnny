@@ -7,7 +7,22 @@
  */
 
 public class Ej03_TrazaContadorStatic {
+    static int contador = 0;
     public static void main(String[] args) {
-        // Escribe aquí tu prueba desde main.
+        // Traza:
+        // linea                 | variables vivas            | contador
+        // inicio de main        | contador                   | 0
+        // llamada contar(1)     | contador, i, valor         | 1
+        // llamada contar(2)     | contador, i, valor         | 2
+        // llamada contar(3)     | contador, i, valor         | 3
+        for (int i = 1; i <= 3; i++) {
+            contar(i);
+        }
+        System.out.println("Contador final: " + contador);
+    }
+
+    static void contar(int valor) {
+        contador++;
+        System.out.println("Llamada " + valor + ", contador = " + contador);
     }
 }
