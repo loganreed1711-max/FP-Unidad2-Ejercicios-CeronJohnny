@@ -7,18 +7,18 @@
  */
 
 public class E1_MarcarAmbito {
-    static int llamadas = 0; // atributo static: existe durante toda la ejecucion
-    static int cuadrado(int n) { // parametro local del metodo
+    static int llamadas = 0; // NO CAMBIA
+static int cuadrado(int n) { // parametro local del metodo
         llamadas++;
-        int resultado = n * n; // variable local: solo existe en cuadrado
+int resultado = n* n; 
         return resultado;
     }
 
     public static void main(String[] args) {
-        int suma = 0; // variable local de main
-        for (int i = 1; i <= 3; i++) { // variable de bloque: solo existe dentro del for
-            suma += cuadrado(i);
-        }
+        int suma =0; 
+     for (int i = 1; i <= 3; i++) { // variable de solo para for
+            suma = suma +cuadrado(i);
+       }
         System.out.println("Suma de cuadrados: " + suma);
         System.out.println("Llamadas: " + llamadas);
     }

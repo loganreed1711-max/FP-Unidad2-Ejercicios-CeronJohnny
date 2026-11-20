@@ -8,15 +8,15 @@
 
 public class E4_SobrecargaPerimetro {
     static double perimetro(double lado) {
-        return 4 * lado;
+        return 4 * lado; //sabemos que lado mas lado cuadro veces nos da el perimetro de un cuadrado
     }
 
     static double perimetro(double base, double altura) {
-        return 2 * (base + altura);
+        return 2 * base + 2 * altura;
     }
 
     public static void main(String[] args) {
-        System.out.println("Perimetro del cuadrado: " + perimetro(5));
-        System.out.println("Perimetro del rectangulo: " + perimetro(4, 7));
+        System.out.println("Perimetro de un cuadrado: " + perimetro(5));
+        System.out.println("Perimetro de un rectangulo: " + perimetro(4, 7));
     }
 }

@@ -7,12 +7,12 @@
  */
 
 public class E4_ReescribirSinStatic {
-    /* Version original con atributos static:
-    static int precio = 100;
-    static int cantidad = 3;
-    static double iva = 0.15;
-    static double total() { return precio * cantidad * (1 + iva); }
-    */
+    // Version original con atributos static:
+    // static int precio = 100;
+    // static int cantidad = 3;
+    // static double iva = 0.15;
+   
+
     static double calcularTotal(int precio, int cantidad, double iva) {
         return precio * cantidad * (1 + iva);
     }
@@ -22,6 +22,6 @@ public class E4_ReescribirSinStatic {
         int cantidad = 3;
         double iva = 0.15;
         double total = calcularTotal(precio, cantidad, iva);
-        System.out.printf("Total con IVA: %.2f%n", total);
+        System.out.print("Total con IVA: "+ total);
     }
 }

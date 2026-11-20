@@ -10,13 +10,13 @@ import java.util.Random;
 
 public class E5_GenerarCodigo {
     public static void main(String[] args) {
-        Random azar = new Random();
+      Random azar = new Random();
         String codigo = "";
-        for (int i = 0; i < 3; i++) {
-            codigo += (char) ('A' + azar.nextInt(26));
+      for (int i = 0; i < 3; i++) {
+    codigo += (char) ('A' + azar.nextInt(26));
         }
-        for (int i = 0; i < 3; i++) {
-            codigo += azar.nextInt(10);
+      for (int i = 0; i < 3; i++) {
+        codigo += azar.nextInt(10);
         }
         System.out.println("Codigo generado: " + codigo);
     }

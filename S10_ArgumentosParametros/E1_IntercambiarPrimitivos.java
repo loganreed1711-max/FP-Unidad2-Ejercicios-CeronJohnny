@@ -9,15 +9,15 @@ S10: Argumentos y parámetros
 
 public class E1_IntercambiarPrimitivos {
     public static void intercambiar(int a, int b){
-        a =8;
-        b = 19;
+        a =8; // asignamos valores a estas variables
+  b = 19;
 
         System.out.println("ANTES: ");
         System.out.println(" a = "+ a);
-        System.out.println(" b = "+ b);
+ System.out.println(" b = "+ b);
         
-        int intercambio = a;
-        a = b; 
+        int intercambio = a;  
+     a = b; 
         b = intercambio;
         
         System.out.println("DESPUES: ");

@@ -8,18 +8,18 @@
 
 public class E5_PrediccionSalida {
     static void aumentar(int n) {
-        n += 5;
-        System.out.println("Dentro: " + n);
+        n = n+5;
+     System.out.println("Dentro: " + n);
     }
 
     static int aumentarYDevolver(int n) {
-        n += 2;
+        n = n + 2;
         System.out.println("Dentro: " + n);
         return n;
     }
 
     public static void main(String[] args) {
-        // Salida predicha:
+        // Predecir:
         // Dentro: 8
         // En main: 3
         // Dentro: 5

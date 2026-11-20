@@ -18,10 +18,10 @@ public class E2_LineasNoCompilan {
             total += i;
         }
         // System.out.println(i);
-        // Error: cannot find symbol. Causa: i es una variable de bloque del for.
+        //i es una variabloe solo para for
         System.out.println("Total: " + total);
         mostrarTotal(total);
         // System.out.println(resultado);
-        // Error: cannot find symbol. Causa: resultado es local de mostrarTotal.
+       //resultado es una variable local
     }
 }

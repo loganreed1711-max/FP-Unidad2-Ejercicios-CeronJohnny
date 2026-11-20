@@ -10,16 +10,16 @@ import java.util.Arrays;
 
 public class E3_AplicarDescuento {
     static void aplicarDescuento(double[] precios, double pct) {
-        for (int i = 0; i < precios.length; i++) {
-            precios[i] = precios[i] * (1 - pct / 100);
+    for (int i = 0; i < precios.length; i++) {
+         precios[i] = precios[i] * (1 - pct / 100);//APLICAMOS UN FOR PARA LA SECUENCIA
         }
     }
 
     public static void main(String[] args) {
-        double[] precios = {12.50, 25.00, 8.75, 40.00};
-        double porcentaje = 15;
-        System.out.println("Antes: " + Arrays.toString(precios));
-        aplicarDescuento(precios, porcentaje);
-        System.out.println("Despues de " + porcentaje + "%: " + Arrays.toString(precios));
+        double[] precios = {100, 200, 300, 400, 500}; // AQUI AGREGAMOS LOS VALORES QUE LE VAMOS ASIGNAR LOS DESCUENTOS
+  double pct = 15;
+        System.out.println("ANTES: " + Arrays.toString(precios));
+        aplicarDescuento(precios, pct);
+        System.out.println("DESPUES: " + Arrays.toString(precios));
     }
 }

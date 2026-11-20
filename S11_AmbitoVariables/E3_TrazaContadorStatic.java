@@ -9,20 +9,13 @@
 public class E3_TrazaContadorStatic {
     static int contador = 0;
     static void contar(int valor) {
-        contador++;
+    contador++;
         System.out.println("Llamada " + valor + ", contador = " + contador);
     }
-
     public static void main(String[] args) {
-        // Traza:
-        // linea                 | variables vivas            | contador
-        // inicio de main        | contador                   | 0
-        // llamada contar(1)     | contador, i, valor         | 1
-        // llamada contar(2)     | contador, i, valor         | 2
-        // llamada contar(3)     | contador, i, valor         | 3
         for (int i = 1; i <= 3; i++) {
             contar(i);
-        }
-        System.out.println("Contador final: " + contador);
+}
+        System.out.println("Contadorr final: " + contador);
     }
 }

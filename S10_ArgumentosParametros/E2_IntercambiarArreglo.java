@@ -10,16 +10,16 @@ import java.util.Arrays;
 
 public class E2_IntercambiarArreglo {
     static void intercambiar(int[] v, int i, int j) {
-        int temporal = v[i];
-        v[i] = v[j];
-        v[j] = temporal;
+        int temporal = v[i]; //aqui hacemos lo mismo que el ejercicio 1
+       v[i] = v[j];         // asignamos los valores creando un temporal 
+      v[j] = temporal;
     }
 
     public static void main(String[] args) {
-        int[] valores = {4, 8, 15, 16};
+        int[] valores = {1, 2, 3, 4, 5};
         System.out.println("Antes: " + Arrays.toString(valores));
-        intercambiar(valores, 1, 3);
+  intercambiar(valores, 0, 4);  // aqui le ponemos 0 por que la secuencia empieza desde 0 y 4
         System.out.println("Despues: " + Arrays.toString(valores));
-        // Ahora si funciona porque se copia la referencia al mismo arreglo.
+    
     }
 }
